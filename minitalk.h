@@ -6,7 +6,7 @@
 /*   By: yohwang <yohwang@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 15:25:24 by yohwang           #+#    #+#             */
-/*   Updated: 2022/06/09 22:35:41 by yohwang          ###   ########.fr       */
+/*   Updated: 2022/06/09 22:46:10 by yohwang          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,6 @@
 
 # include <unistd.h>
 # include <signal.h>
-
-typedef struct s_stamp
-{
-	char	*str;
-	pid_t	pid;
-}	t_stamp;
 
 void		print_word(char *str);
 void		print_num(int n);

@@ -6,7 +6,7 @@
 /*   By: yohwang <yohwang@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 18:15:56 by yohwang           #+#    #+#             */
-/*   Updated: 2022/06/09 18:16:16 by yohwang          ###   ########.fr       */
+/*   Updated: 2022/06/09 22:19:57 by yohwang          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,9 @@ void	get_signal(int signal)
 	bit += 1;
 	if (bit == 8)
 	{
-		if (byte == 0)
-			exit(0);
-		else
-		{
-			write(1, &byte, 1);
-			bit = 0;
-			byte = 0;
-		}
+		write(1, &byte, 1);
+		bit = 0;
+		byte = 0;
 	}
 }
 

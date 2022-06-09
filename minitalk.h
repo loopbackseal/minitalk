@@ -6,7 +6,7 @@
 /*   By: yohwang <yohwang@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 15:25:24 by yohwang           #+#    #+#             */
-/*   Updated: 2022/06/09 16:34:46 by yohwang          ###   ########.fr       */
+/*   Updated: 2022/06/09 22:35:41 by yohwang          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define MINITALK_H
 
 # include <unistd.h>
-# include <stdlib.h>
 # include <signal.h>
 
 typedef struct s_stamp
